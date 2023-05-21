@@ -17,8 +17,6 @@ services:
     volumes:
       - static:/static
       - media:/var/www/kittygram/media
-    depends_on:
-      - db 
   frontend:
     image: pnazarov86/kittygram_frontend
     env_file: .env
