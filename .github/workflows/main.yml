@@ -149,8 +149,7 @@ jobs:
           cd kittygram
           sudo docker compose -f docker-compose.yml pull
           sudo docker compose -f docker-compose.yml down
-          touch .env
-          echo POSTGRES_DB=${{ secrets.POSTGRES_DB }} >> .env
+          echo POSTGRES_DB=${{ secrets.POSTGRES_DB }} > .env
           echo POSTGRES_USER=${{ secrets.POSTGRES_USER }} >> .env
           echo POSTGRES_PASSWORD=${{ secrets.POSTGRES_PASSWORD }} >> .env
           echo DB_NAME=${{ secrets.DB_NAME }} >> .env
