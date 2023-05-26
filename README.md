@@ -42,17 +42,17 @@ docker compose exec backend python manage.py collectstatic
 docker compose exec backend cp -r /app/collected_static/. /backend_static/static/
 ```
 
-Откройте в браузере страницу http://localhost:9000/
+Откройте в браузере страницу: http://localhost:9000/
 
 
 ## Запуск проекта на боевом сервере:
 В проекте реализовано автоматическое развертывание с помощью сервиса GitHub Actions, после git push в ветку main(master).
 
-Проект доступен по адресу https://kittyphoto.ddns.net/
+Проект доступен по адресу: https://kittyphoto.ddns.net/
 
 ### Автор 
-Петр Назаров
-https://github.com/Pnazarov86
+Пётр Назаров
+(https://github.com/Pnazarov86)
 
 
 
