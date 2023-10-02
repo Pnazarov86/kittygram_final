@@ -46,5 +46,5 @@ social-auth-core==4.4.2
 sqlparse==0.4.4
 toml==0.10.2
 uritemplate==4.1.1
-urllib3==2.0.2
+urllib3==2.0.6
 webcolors==1.11.1
